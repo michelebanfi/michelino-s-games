@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4EB22472CD0DD700032BD08 /* Michelino_s_gamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EB22462CD0DD700032BD08 /* Michelino_s_gamesApp.swift */; };
+		B4EB22492CD0DD700032BD08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EB22482CD0DD700032BD08 /* ContentView.swift */; };
+		B4EB224B2CD0DD720032BD08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4EB224A2CD0DD720032BD08 /* Assets.xcassets */; };
+		B4EB224E2CD0DD720032BD08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4EB224D2CD0DD720032BD08 /* Preview Assets.xcassets */; };
+		B4EB22582CD0DD730032BD08 /* Michelino_s_gamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EB22572CD0DD730032BD08 /* Michelino_s_gamesTests.swift */; };
+		B4EB22622CD0DD730032BD08 /* Michelino_s_gamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EB22612CD0DD730032BD08 /* Michelino_s_gamesUITests.swift */; };
+		B4EB22642CD0DD730032BD08 /* Michelino_s_gamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EB22632CD0DD730032BD08 /* Michelino_s_gamesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4EB22542CD0DD730032BD08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4EB223B2CD0DD700032BD08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4EB22422CD0DD700032BD08;
+			remoteInfo = "Michelino's games";
+		};
+		B4EB225E2CD0DD730032BD08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4EB223B2CD0DD700032BD08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4EB22422CD0DD700032BD08;
+			remoteInfo = "Michelino's games";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4EB22432CD0DD700032BD08 /* Michelino's games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Michelino's games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EB22462CD0DD700032BD08 /* Michelino_s_gamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Michelino_s_gamesApp.swift; sourceTree = "<group>"; };
+		B4EB22482CD0DD700032BD08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4EB224A2CD0DD720032BD08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4EB224D2CD0DD720032BD08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4EB22532CD0DD730032BD08 /* Michelino's gamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Michelino's gamesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EB22572CD0DD730032BD08 /* Michelino_s_gamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Michelino_s_gamesTests.swift; sourceTree = "<group>"; };
+		B4EB225D2CD0DD730032BD08 /* Michelino's gamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Michelino's gamesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EB22612CD0DD730032BD08 /* Michelino_s_gamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Michelino_s_gamesUITests.swift; sourceTree = "<group>"; };
+		B4EB22632CD0DD730032BD08 /* Michelino_s_gamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Michelino_s_gamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4EB22402CD0DD700032BD08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EB22502CD0DD730032BD08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EB225A2CD0DD730032BD08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4EB223A2CD0DD700032BD08 = {
+			isa = PBXGroup;
+			children = (
+				B4EB22452CD0DD700032BD08 /* Michelino's games */,
+				B4EB22562CD0DD730032BD08 /* Michelino's gamesTests */,
+				B4EB22602CD0DD730032BD08 /* Michelino's gamesUITests */,
+				B4EB22442CD0DD700032BD08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4EB22442CD0DD700032BD08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4EB22432CD0DD700032BD08 /* Michelino's games.app */,
+				B4EB22532CD0DD730032BD08 /* Michelino's gamesTests.xctest */,
+				B4EB225D2CD0DD730032BD08 /* Michelino's gamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4EB22452CD0DD700032BD08 /* Michelino's games */ = {
+			isa = PBXGroup;
+			children = (
+				B4EB22462CD0DD700032BD08 /* Michelino_s_gamesApp.swift */,
+				B4EB22482CD0DD700032BD08 /* ContentView.swift */,
+				B4EB224A2CD0DD720032BD08 /* Assets.xcassets */,
+				B4EB224C2CD0DD720032BD08 /* Preview Content */,
+			);
+			path = "Michelino's games";
+			sourceTree = "<group>";
+		};
+		B4EB224C2CD0DD720032BD08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4EB224D2CD0DD720032BD08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4EB22562CD0DD730032BD08 /* Michelino's gamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4EB22572CD0DD730032BD08 /* Michelino_s_gamesTests.swift */,
+			);
+			path = "Michelino's gamesTests";
+			sourceTree = "<group>";
+		};
+		B4EB22602CD0DD730032BD08 /* Michelino's gamesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4EB22612CD0DD730032BD08 /* Michelino_s_gamesUITests.swift */,
+				B4EB22632CD0DD730032BD08 /* Michelino_s_gamesUITestsLaunchTests.swift */,
+			);
+			path = "Michelino's gamesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4EB22422CD0DD700032BD08 /* Michelino's games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4EB22672CD0DD730032BD08 /* Build configuration list for PBXNativeTarget "Michelino's games" */;
+			buildPhases = (
+				B4EB223F2CD0DD700032BD08 /* Sources */,
+				B4EB22402CD0DD700032BD08 /* Frameworks */,
+				B4EB22412CD0DD700032BD08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Michelino's games";
+			productName = "Michelino's games";
+			productReference = B4EB22432CD0DD700032BD08 /* Michelino's games.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4EB22522CD0DD730032BD08 /* Michelino's gamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4EB226A2CD0DD730032BD08 /* Build configuration list for PBXNativeTarget "Michelino's gamesTests" */;
+			buildPhases = (
+				B4EB224F2CD0DD730032BD08 /* Sources */,
+				B4EB22502CD0DD730032BD08 /* Frameworks */,
+				B4EB22512CD0DD730032BD08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4EB22552CD0DD730032BD08 /* PBXTargetDependency */,
+			);
+			name = "Michelino's gamesTests";
+			productName = "Michelino's gamesTests";
+			productReference = B4EB22532CD0DD730032BD08 /* Michelino's gamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4EB225C2CD0DD730032BD08 /* Michelino's gamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4EB226D2CD0DD730032BD08 /* Build configuration list for PBXNativeTarget "Michelino's gamesUITests" */;
+			buildPhases = (
+				B4EB22592CD0DD730032BD08 /* Sources */,
+				B4EB225A2CD0DD730032BD08 /* Frameworks */,
+				B4EB225B2CD0DD730032BD08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4EB225F2CD0DD730032BD08 /* PBXTargetDependency */,
+			);
+			name = "Michelino's gamesUITests";
+			productName = "Michelino's gamesUITests";
+			productReference = B4EB225D2CD0DD730032BD08 /* Michelino's gamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4EB223B2CD0DD700032BD08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B4EB22422CD0DD700032BD08 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B4EB22522CD0DD730032BD08 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B4EB22422CD0DD700032BD08;
+					};
+					B4EB225C2CD0DD730032BD08 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B4EB22422CD0DD700032BD08;
+					};
+				};
+			};
+			buildConfigurationList = B4EB223E2CD0DD700032BD08 /* Build configuration list for PBXProject "Michelino's games" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4EB223A2CD0DD700032BD08;
+			productRefGroup = B4EB22442CD0DD700032BD08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4EB22422CD0DD700032BD08 /* Michelino's games */,
+				B4EB22522CD0DD730032BD08 /* Michelino's gamesTests */,
+				B4EB225C2CD0DD730032BD08 /* Michelino's gamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4EB22412CD0DD700032BD08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EB224E2CD0DD720032BD08 /* Preview Assets.xcassets in Resources */,
+				B4EB224B2CD0DD720032BD08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EB22512CD0DD730032BD08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EB225B2CD0DD730032BD08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4EB223F2CD0DD700032BD08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EB22492CD0DD700032BD08 /* ContentView.swift in Sources */,
+				B4EB22472CD0DD700032BD08 /* Michelino_s_gamesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EB224F2CD0DD730032BD08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EB22582CD0DD730032BD08 /* Michelino_s_gamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EB22592CD0DD730032BD08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EB22622CD0DD730032BD08 /* Michelino_s_gamesUITests.swift in Sources */,
+				B4EB22642CD0DD730032BD08 /* Michelino_s_gamesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4EB22552CD0DD730032BD08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4EB22422CD0DD700032BD08 /* Michelino's games */;
+			targetProxy = B4EB22542CD0DD730032BD08 /* PBXContainerItemProxy */;
+		};
+		B4EB225F2CD0DD730032BD08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4EB22422CD0DD700032BD08 /* Michelino's games */;
+			targetProxy = B4EB225E2CD0DD730032BD08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4EB22652CD0DD730032BD08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4EB22662CD0DD730032BD08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4EB22682CD0DD730032BD08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Michelino's games/Preview Content\"";
+				DEVELOPMENT_TEAM = B3ZZRPBRN3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.linodev.Michelino-s-games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4EB22692CD0DD730032BD08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Michelino's games/Preview Content\"";
+				DEVELOPMENT_TEAM = B3ZZRPBRN3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.linodev.Michelino-s-games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4EB226B2CD0DD730032BD08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3ZZRPBRN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.linodev.Michelino-s-gamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Michelino's games.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Michelino's games";
+			};
+			name = Debug;
+		};
+		B4EB226C2CD0DD730032BD08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3ZZRPBRN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.linodev.Michelino-s-gamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Michelino's games.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Michelino's games";
+			};
+			name = Release;
+		};
+		B4EB226E2CD0DD730032BD08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3ZZRPBRN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.linodev.Michelino-s-gamesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Michelino's games";
+			};
+			name = Debug;
+		};
+		B4EB226F2CD0DD730032BD08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3ZZRPBRN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.linodev.Michelino-s-gamesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Michelino's games";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4EB223E2CD0DD700032BD08 /* Build configuration list for PBXProject "Michelino's games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EB22652CD0DD730032BD08 /* Debug */,
+				B4EB22662CD0DD730032BD08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4EB22672CD0DD730032BD08 /* Build configuration list for PBXNativeTarget "Michelino's games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EB22682CD0DD730032BD08 /* Debug */,
+				B4EB22692CD0DD730032BD08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4EB226A2CD0DD730032BD08 /* Build configuration list for PBXNativeTarget "Michelino's gamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EB226B2CD0DD730032BD08 /* Debug */,
+				B4EB226C2CD0DD730032BD08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4EB226D2CD0DD730032BD08 /* Build configuration list for PBXNativeTarget "Michelino's gamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EB226E2CD0DD730032BD08 /* Debug */,
+				B4EB226F2CD0DD730032BD08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4EB223B2CD0DD700032BD08 /* Project object */;
+}
